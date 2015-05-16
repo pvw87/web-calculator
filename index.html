@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Web Calculator</title>
+	<link rel="stylesheet" type="text/css" href="calculator.css">
+</head>
+<body>
+	<div class="container">
+		<div class="theme_buttons">
+			<button id="light_theme">Light Theme</button>
+			<button id="dark_theme">Dark Theme</button>
+		</div>
+		<hr>
+		<div id="calc" class="calculator light">
+			<div class="display">
+				<input type="text" id="output" disabled="disabled" />
+			</div>
+			<div class="numbers num_div">
+				<div class="row numbers">
+					<button>1</button>
+					<button>2</button>
+					<button>3</button>
+				</div>
+				<div class="row numbers">
+					<button>4</button>
+					<button>5</button>
+					<button>6</button>
+				</div>
+				<div class="row numbers">
+					<button>7</button>
+					<button>8</button>
+					<button>9</button>
+				</div>
+				<div class="row numbers">
+					<button class="zero">0</button>
+					<button>.</button>					
+				</div>
+				<div class="row">
+					<button id="clear" class="clear">A/C</button>
+					<button id="backspace">C</button>
+					<button id="result">=</button>
+				</div>
+			</div>
+			<div class="row operators">
+				<button id="add">+</button>
+				<button id="subtract">-</button>
+				<button id="multiply">*</button>
+				<button id="divide">&divide;</button>
+				<button id="root">&radic;</button>
+			</div>
+			
+		</div>
+	</div>
+	<script type="text/javascript" src="calculator.js"></script>
+</body>
+</html>
